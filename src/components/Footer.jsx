@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className='bg-gray-300 dark:bg-slate-800 dark:text-gray-100'>
       <Container>
-        <div className='grid grid-cols-2 smx:grid-cols-1 items-evenly pt-6 px-20'>
+        <div className='grid grid-cols-2 smx:grid-cols-1 items-evenly pt-6 px-20 smx:px-10'>
           <div className='sm:pl-16'>
             Contact Info:
             <p>Email: test@test.com</p>
