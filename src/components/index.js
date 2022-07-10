@@ -1,5 +1,6 @@
 export { default as Navbar } from './Navbar'
 export { default as Logo } from './Logo'
+export { default as DarkMode } from './DarkMode'
 export { default as Footer } from './Footer'
 export { default as Filters } from './Filters'
 export { default as ScrollButton } from './ScrollButton'

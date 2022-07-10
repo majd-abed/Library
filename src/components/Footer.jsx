@@ -2,7 +2,7 @@ import React from "react";
 import Container from "./Container";
 const Footer = () => {
   return (
-    <div className='bg-gray-300'>
+    <div className='bg-gray-300 dark:bg-slate-800 dark:text-gray-100'>
       <Container>
         <div className='grid grid-cols-2 smx:grid-cols-1 items-evenly pt-6 px-20'>
           <div className='sm:pl-16'>

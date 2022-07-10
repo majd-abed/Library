@@ -22,7 +22,7 @@ const ScrollButton = () => {
   window.addEventListener("scroll", toggleVisible);
 
   return (
-    <div className='z-0 fixed bottom-8 right-8 opacity-75 cursor-pointer'>
+    <div className='z-0 fixed bottom-8 right-8 opacity-75 cursor-pointer dark:bg-slate-900 dark:text-white rounded-full'>
       <FaArrowCircleUp
         className='w-8 h-8'
         onClick={scrollToTop}

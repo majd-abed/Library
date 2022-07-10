@@ -10,7 +10,7 @@ const BooksSection = () => {
     setPage(p);
   };
   return (
-    <div className='my-10'>
+    <div className='py-10 dark:bg-slate-900 dark:text-gray-100'>
       <Container>
         <div className='grid grid-cols-3 lgx:grid-cols-2 mdx:grid-cols-1 gap-6 px-20 mb-10 '>
           {data.length ? (
@@ -28,12 +28,12 @@ const BooksSection = () => {
           innerClass='flex justify-center'
           itemClass={
             Math.ceil(data.length / 5) > 1
-              ? "w-12 h-10 flex justify-center items-center text-lg font-semibold border hover:bg-gray-300 duration-200"
+              ? "w-12 h-10 flex justify-center items-center text-lg font-semibold border hover:bg-gray-300 dark:hover:bg-slate-600 duration-200"
               : "hidden"
           }
           prevPageText={"<"}
           nextPageText={">"}
-          activeClass='bg-gray-200 font-bold'
+          activeClass='bg-gray-200 dark:bg-slate-700 font-bold'
           activePage={page}
           itemsCountPerPage={5}
           totalItemsCount={data.length}
