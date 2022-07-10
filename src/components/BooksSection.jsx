@@ -12,7 +12,7 @@ const BooksSection = () => {
   return (
     <div className='py-10 dark:bg-slate-900 dark:text-gray-100'>
       <Container>
-        <div className='grid grid-cols-3 lgx:grid-cols-2 mdx:grid-cols-1 gap-6 px-20 mb-10 '>
+        <div className='grid grid-cols-3 lgx:grid-cols-2 mdx:grid-cols-1 gap-6 sm:px-20 smx:px-10 mb-10 '>
           {data.length ? (
             data.slice((page - 1) * 5, page * 5).map((book) => {
               return <Card key={book.id} {...book} />;
