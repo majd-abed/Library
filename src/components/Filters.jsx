@@ -53,7 +53,7 @@ const Filters = () => {
           <select
             name='genre'
             onChange={updateData}
-            className='font-semibold pl-1 focus:outline-none cursor-pointer'>
+            className='bg-transparent font-semibold pl-1 focus:outline-none cursor-pointer'>
             <option value='all'>all</option>
             <option value='novel'>Novel</option>
             <option value='fiction'>Fiction</option>
