@@ -16,7 +16,7 @@ const Card = ({ cover, title, author, year, description, likes }) => {
   return (
     <div className='shadow border hover:shadow-md duration-150 '>
       <div className='m-auto w-fit py-4'>
-        <img src={cover} alt='Cover' />
+        <img src={cover} alt='Cover' width={200} height={250} />
       </div>
       <div className='grid grid-cols-2'>
         <h2 className='text-lg text-center font-bold col-span-2 py-2'>{title}</h2>
